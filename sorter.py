@@ -10,7 +10,10 @@ for i in range(start,end+1):
     
     pyautogui.rightClick(751,339)
     pyautogui.click(794,385)
-    # pyautogui.hotkey("ctrl","s")
+    #pyautogui.rightClick(751,339)
+    #pyautogui.press("down")
+    #pyautogui.press("down")
+    #pyautogui.press("enter")
     
     time.sleep(1)
     pyautogui.typewrite(pre+str(i))
